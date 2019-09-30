@@ -1,46 +1,45 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <title>Exercice HTML partie1 exercice7</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-  <body>
-    <form>
-      <fieldset class="blueColor">
-        <legend class="blueColor">Votre identité</legend>
-        <label for="nom">1. Nom :</label>
-          <input type="text" id="nom" name="nom" value="" placeholder="Nom" \><br>
-        <label for="prenom">2. Prénom :</label>
-          <input type="text" id="prenom" name="prenom" value="" placeholder="Prénom" \><br>
-        <label for="email">3. Adresse email :</label>
-          <input type="email" id="email" name="email" value="" placeholder="Adresse email" \>
-      </fieldset>
-      <fieldset class="purpleColor">
-          <legend class="purpleColor">Adresse de livraison</legend>
-        <label for="adresse">1. Adresse :</label>
-          <textarea id="adresse" name="adresse" value="" rows="4" placeholder="Adresse"></textarea><br>
-        <label for="cp">2. Code postal :</label>
-          <input type="text" id="cp" name="cp" value="" placeholder="Code Postal" maxlength="5" \><br>
-        <label for="ville">3. Ville :</label>
-          <input type="text" id="ville" name="ville" value="" placeholder="Ville" \><br>
-      </fieldset>
-      <fieldset class="pinkColor">
-        <legend class="pinkColor">Informations de réglement</legend>
-        <label for="CBtype">1. Type de carte bancaire</label><br>
-          <input type="radio" id="CB" name="CB" value="visa" \>
-        <label for="CB">Visa</label><br>
-          <input type="radio" id="CB" name="CB" value="mastercard" \>
-        <label for="CB">Mastercard</label><br>
-        <label for="numCB">2. Numéro de carte :</label>
-          <input type="text" id="numCB" name="numCB" value="" placeholder="Numéro de carte" \><br>
-        <label for="codeCB">3. Code de sécurité :</label>
-          <input type="text" id="codeCB" name="codeCB" value="" placeholder="Code de sécurité" \><br>
-        <label for="nomtitulaire">4. Nom du titulaire :</label>
-          <input type="text" id="nomtitulaire" name="nomtitulaire" value="" placeholder="Nom du titulaire" \><br>
-      </fieldset>
-      <input type="submit" id="envoyer" name="envoyer" value="J'achète" \>
-    </form>
-
-  </body>
-  </html>
+<head>
+  <meta charset="utf-8">
+  <title>Exercice HTML partie1 exercice7</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <form>
+    <fieldset class="blueColor">
+      <legend class="blueColor">Votre identité</legend>
+      <label for="nom">1. Nom :</label>
+      <input type="text" id="nom" name="nom" value="" placeholder="Nom" /><br>
+      <label for="prenom">2. Prénom :</label>
+      <input type="text" id="prenom" name="prenom" value="" placeholder="Prénom" /><br>
+      <label for="email">3. Adresse email :</label>
+      <input type="email" id="email" name="email" value="" placeholder="Adresse email" />
+    </fieldset>
+    <fieldset class="purpleColor">
+      <legend class="purpleColor">Adresse de livraison</legend>
+      <label for="adresse">1. Adresse :</label>
+      <textarea id="adresse" name="adresse" rows="4" placeholder="Adresse"></textarea><br>
+      <label for="cp">2. Code postal :</label>
+      <input type="text" id="cp" name="cp" value="" placeholder="Code Postal" maxlength="5" /><br>
+      <label for="ville">3. Ville :</label>
+      <input type="text" id="ville" name="ville" value="" placeholder="Ville" /><br>
+    </fieldset>
+    <fieldset class="pinkColor">
+      <legend class="pinkColor">Informations de réglement</legend>
+      <label>1. Type de carte bancaire</label><br>
+      <input type="radio" id="CBvisa" name="CB" value="visa" />
+      <label for="CBvisa">Visa</label><br>
+      <input type="radio" id="CBmaster" name="CB" value="mastercard" />
+      <label for="CBmaster">Mastercard</label><br>
+      <label for="numCB">2. Numéro de carte :</label>
+      <input type="text" id="numCB" name="numCB" value="" placeholder="Numéro de carte" /><br>
+      <label for="codeCB">3. Code de sécurité :</label>
+      <input type="password" id="codeCB" name="codeCB" value="" placeholder="Code de sécurité" /><br>
+      <label for="nomtitulaire">4. Nom du titulaire :</label>
+      <input type="text" id="nomtitulaire" name="nomtitulaire" value="" placeholder="Nom du titulaire" /><br>
+    </fieldset>
+    <input type="submit" id="envoyer" name="envoyer" value="J'achète" />
+  </form>
+</body>
+</html>
